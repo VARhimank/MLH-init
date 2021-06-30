@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+body{
+    background-color: #ff7273;
+}
+
+.top-nav {
+    height: 80px;
+    padding: 20px 105px;
+
+}
+
+.top-nav li{
+    list-style-type: none;
+    float: right;
+    padding: 20px 20px;
+    color: white;
+    font-size: 20px;
+    transition: all 0.1s;
+}
+
+.top-nav li:hover{
+    border-bottom: 3px solid white;
+}
+
+.logo {
+    float: left;
+    padding: 20px 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.main{
+    position: relative;
+    padding: 50px 100px;
+}
+
+.main h1{
+    color: #4f1519;
+    font-size: 75px;
+}
+.main h4{
+    color: #6f1f25;
+    font-size: 50px ;
+}
+
+.main p{
+    color: white;
+    font-size: 15px ;
+    font-weight: 20;
+    width: 30%;
+}
+
+button{
+    margin-top: 10px;
+    width: 140px;
+    border: 0;
+    padding: 12px;
+    outline: none;
+    color: #6f1f25 ;
+    background-image: linear-gradient(to right, #ffffff,#ff9e97);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: width 0.5s;
+}
+
+button:hover {
+    width: 200px;
+}
+
+.main img{
+    width: 30%;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.cards-list {
+    height: 600px;
+    margin-top: 200px;
+    background-color: white;
+    overflow: hidden;
+    padding: 50px
+}
+
+.cards {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px 30px;
+    height: 470px;
+    cursor: pointer;
+    float: left;
+    border-radius: 20px;
+    transition:all 1s;
+}
+
+.card:hover{
+    position: relative;
+    bottom:15px;
+}
+
+.card h5 {
+    color: #ff7273;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card p {
+    color: #4f1519;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 50%;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
